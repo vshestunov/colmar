@@ -309,3 +309,116 @@ footer div p a {
 footer div p a:hover {
     color: blueviolet;
 } 
+
+/* MEDIA FOR MOBILE */
+
+@media only screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 24px;
+        padding: 0;
+    }
+
+    #section1 {
+        flex-wrap: wrap;
+        padding: 0 0 32px 0;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .right-mobile {
+        margin: 32px 16px 0 16px;
+    }
+
+    #sec1-content {
+        width: 100%;
+        color: rgb(74,74,74);
+    }
+
+    #sec2left-mobile {
+        display: none;
+    }
+
+    #section2 {
+        padding: 16px 0 0 0;
+        width: 100%;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .content img,
+    .content-text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .sec2right {
+        margin: 0;
+        width: 100%;
+    }
+
+    .img-mobile {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content .content-text {
+        margin: 16px;
+    }
+
+    .content-text h3 {
+        color: rgb(76,76,76);
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .content-text p {
+        color: rgb(76,76,76);
+        font-size: 1.4rem;
+    }
+
+    .content-gray {
+        background-color: rgb(243,245,245);
+    }
+
+    .learning-mobile {
+        display: block;
+        width: 100%;
+        
+    }
+
+    .lrn-mobile {
+        max-width: 100%;
+        margin: 16px 16px 8px 32px;
+        background-color: rgb(216,216,216);
+    }
+
+    .lrn-mobile h3 {
+        padding: 16px 0 24px 16px;
+        font-size: 1.5rem;
+        color: rgb(76,76,76);
+    }
+
+    #section4 {
+        padding: 32px 0 24px 0;
+    }
+
+    footer span{
+        margin: 16px 0;
+    }
+}
